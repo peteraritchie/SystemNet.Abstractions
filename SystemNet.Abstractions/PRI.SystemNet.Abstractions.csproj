@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.1</TargetFramework>
+    <Version>0.1.0</Version>
+    <Authors>Peter Ritchie</Authors>
+    <Company>Peter Ritchie</Company>
+    <Description>Interfaces for some System.Net functionality</Description>
+    <Copyright>© 2018 Peter Ritchie</Copyright>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/peteraritchie/SystemNet.Abstractions/dev/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/peteraritchie/SystemNet.Abstractions</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/peteraritchie/SystemNet.Abstractions</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>System.Net Abstractions</PackageTags>
+    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+  </PropertyGroup>
+
+</Project>
