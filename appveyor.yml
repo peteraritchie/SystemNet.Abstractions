@@ -25,10 +25,15 @@ nuget:
 build_script:
 - ps: >-
     dotnet restore
+
     nuget restore
+
     dotnet build -c Release /p:Version=$env:APPVEYOR_BUILD_VERSION /p:PackageReleaseNotes="$env:APPVEYOR_PULL_REQUEST_TITLE"
+
     pushd SystemNet.Abstractions
+
     dotnet pack -c Release /p:Version=$env:APPVEYOR_BUILD_VERSION /p:PackageReleaseNotes="$env:APPVEYOR_PULL_REQUEST_TITLE" --include-symbols
+
     popd
 
 test: on
